@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}, "title": {"anchor": "middle", "color": "black", "font": "Times New Roman", "fontSize": 20}}, "data": {"name": "data-36a8bbd10f87ba246d094a5fa49060de"}, "mark": "bar", "encoding": {"color": {"field": "type_bin", "title": "Type of Call", "type": "nominal"}, "facet": {"columns": 3, "field": "district", "title": "City Council District", "type": "ordinal"}, "tooltip": {"field": "count", "type": "quantitative"}, "x": {"field": "type_bin", "title": "Type of Call", "type": "nominal"}, "y": {"field": "count", "title": "Number of Calls", "type": "quantitative"}}, "title": "311 Calls by District in 2022", "transform": [{"filter": "(datum.type_bin !== 'Other')"}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-36a8bbd10f87ba246d094a5fa49060de": [{"type_bin": "Other", "count": 50526, "district": "2"}, {"type_bin": "Needle Pickup", "count": 2382, "district": "2"}, {"type_bin": "Dead Animals and Pests", "count": 1989, "district": "2"}, {"type_bin": "Safety Concerns", "count": 1266, "district": "2"}, {"type_bin": "Lack of Utilities", "count": 56, "district": "2"}, {"type_bin": "Other", "count": 22696, "district": "3"}, {"type_bin": "Needle Pickup", "count": 1075, "district": "3"}, {"type_bin": "Safety Concerns", "count": 1148, "district": "3"}, {"type_bin": "Dead Animals and Pests", "count": 1586, "district": "3"}, {"type_bin": "Lack of Utilities", "count": 48, "district": "3"}, {"type_bin": "Other", "count": 19057, "district": "4"}, {"type_bin": "Safety Concerns", "count": 1327, "district": "4"}, {"type_bin": "Dead Animals and Pests", "count": 897, "district": "4"}, {"type_bin": "Needle Pickup", "count": 121, "district": "4"}, {"type_bin": "Lack of Utilities", "count": 124, "district": "4"}, {"type_bin": "Other", "count": 22831, "district": "6"}, {"type_bin": "Dead Animals and Pests", "count": 1113, "district": "6"}, {"type_bin": "Safety Concerns", "count": 798, "district": "6"}, {"type_bin": "Needle Pickup", "count": 213, "district": "6"}, {"type_bin": "Lack of Utilities", "count": 39, "district": "6"}, {"type_bin": "Other", "count": 26796, "district": "7"}, {"type_bin": "Needle Pickup", "count": 1512, "district": "7"}, {"type_bin": "Safety Concerns", "count": 1435, "district": "7"}, {"type_bin": "Dead Animals and Pests", "count": 1556, "district": "7"}, {"type_bin": "Lack of Utilities", "count": 108, "district": "7"}, {"type_bin": "Other", "count": 22252, "district": "8"}, {"type_bin": "Dead Animals and Pests", "count": 1284, "district": "8"}, {"type_bin": "Safety Concerns", "count": 684, "district": "8"}, {"type_bin": "Needle Pickup", "count": 460, "district": "8"}, {"type_bin": "Lack of Utilities", "count": 15, "district": "8"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
