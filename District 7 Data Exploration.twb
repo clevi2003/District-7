@@ -1,0 +1,1978 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Educational Attainment (2015-2019_neighborhood_tables_2021.12.21)' inline='true' name='federated.0rutp1e0anofrh1728jtf0popoaz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2015-2019_neighborhood_tables_2021.12.21' name='excel-direct.1os7f0o1fb6lxo177p8d006dk8rw'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/emmet/Documents/Academics/Coding/Data Visualization/2015-2019_neighborhood_tables_2021.12.21.xlsm' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1os7f0o1fb6lxo177p8d006dk8rw' name='Educational Attainment' table='[&apos;Educational Attainment$&apos;]' type='table'>
+          <columns gridOrigin='A1:AC33:no:A1:AC33:0' header='yes' outcome='2'>
+            <column datatype='string' name='neighborhood' ordinal='0' />
+            <column datatype='integer' name='Total population 25 years and over' ordinal='1' />
+            <column datatype='integer' name='Less than High School' ordinal='2' />
+            <column datatype='real' name='% Less than High School' ordinal='3' />
+            <column datatype='integer' name='High School Graduate' ordinal='4' />
+            <column datatype='real' name='% High School Grad' ordinal='5' />
+            <column datatype='integer' name='GED or Alternative Credential' ordinal='6' />
+            <column datatype='real' name='% GED or Alternative' ordinal='7' />
+            <column datatype='integer' name='Some College' ordinal='8' />
+            <column datatype='real' name='% Some College' ordinal='9' />
+            <column datatype='integer' name='Associate&apos;s Degree' ordinal='10' />
+            <column datatype='real' name='% Associates' ordinal='11' />
+            <column datatype='integer' name='Bachelor&apos;s Degree' ordinal='12' />
+            <column datatype='real' name='% Bachelors' ordinal='13' />
+            <column datatype='integer' name='Master&apos;s Degree or more' ordinal='14' />
+            <column datatype='real' name='% Masters or More' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='integer' name='Total population 25 years and over 1' ordinal='18' />
+            <column datatype='integer' name='Less than High School 1' ordinal='19' />
+            <column datatype='real' name='%' ordinal='20' />
+            <column datatype='integer' name='High School Graduate/GED or Alternative Credential' ordinal='21' />
+            <column datatype='real' name='% 1' ordinal='22' />
+            <column datatype='integer' name='Some College/Associate&apos;s Degree' ordinal='23' />
+            <column datatype='real' name='% 2' ordinal='24' />
+            <column datatype='integer' name='Bachelor&apos;s Degree 1' ordinal='25' />
+            <column datatype='real' name='% 3' ordinal='26' />
+            <column datatype='integer' name='Master&apos;s Degree or more 1' ordinal='27' />
+            <column datatype='real' name='% 4' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='excel-direct.1os7f0o1fb6lxo177p8d006dk8rw' name='Educational Attainment' table='[&apos;Educational Attainment$&apos;]' type='table'>
+            <columns gridOrigin='A1:AC33:no:A1:AC33:0' header='yes' outcome='2'>
+              <column datatype='string' name='neighborhood' ordinal='0' />
+              <column datatype='integer' name='Total population 25 years and over' ordinal='1' />
+              <column datatype='integer' name='Less than High School' ordinal='2' />
+              <column datatype='real' name='% Less than High School' ordinal='3' />
+              <column datatype='integer' name='High School Graduate' ordinal='4' />
+              <column datatype='real' name='% High School Grad' ordinal='5' />
+              <column datatype='integer' name='GED or Alternative Credential' ordinal='6' />
+              <column datatype='real' name='% GED or Alternative' ordinal='7' />
+              <column datatype='integer' name='Some College' ordinal='8' />
+              <column datatype='real' name='% Some College' ordinal='9' />
+              <column datatype='integer' name='Associate&apos;s Degree' ordinal='10' />
+              <column datatype='real' name='% Associates' ordinal='11' />
+              <column datatype='integer' name='Bachelor&apos;s Degree' ordinal='12' />
+              <column datatype='real' name='% Bachelors' ordinal='13' />
+              <column datatype='integer' name='Master&apos;s Degree or more' ordinal='14' />
+              <column datatype='real' name='% Masters or More' ordinal='15' />
+              <column datatype='real' name='F17' ordinal='16' />
+              <column datatype='string' name='F18' ordinal='17' />
+              <column datatype='integer' name='Total population 25 years and over 1' ordinal='18' />
+              <column datatype='integer' name='Less than High School 1' ordinal='19' />
+              <column datatype='real' name='%' ordinal='20' />
+              <column datatype='integer' name='High School Graduate/GED or Alternative Credential' ordinal='21' />
+              <column datatype='real' name='% 1' ordinal='22' />
+              <column datatype='integer' name='Some College/Associate&apos;s Degree' ordinal='23' />
+              <column datatype='real' name='% 2' ordinal='24' />
+              <column datatype='integer' name='Bachelor&apos;s Degree 1' ordinal='25' />
+              <column datatype='real' name='% 3' ordinal='26' />
+              <column datatype='integer' name='Master&apos;s Degree or more 1' ordinal='27' />
+              <column datatype='real' name='% 4' ordinal='28' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1os7f0o1fb6lxo177p8d006dk8rw' name='Household Income' table='[&apos;Household Income$&apos;]' type='table'>
+            <columns gridOrigin='A1:S34:no:A1:S34:0' header='yes' outcome='2'>
+              <column datatype='string' name='neighborhood' ordinal='0' />
+              <column datatype='real' name='Median Income' ordinal='1' />
+              <column datatype='integer' name='Total Households' ordinal='2' />
+              <column datatype='integer' name='$14,999 and under' ordinal='3' />
+              <column datatype='real' name='% 14,999 and under' ordinal='4' />
+              <column datatype='integer' name='$15,000 to $24,999' ordinal='5' />
+              <column datatype='real' name='% $15,000 to $24,999' ordinal='6' />
+              <column datatype='integer' name='$25,000 to $34,999' ordinal='7' />
+              <column datatype='real' name='% $25,000 to $34,999' ordinal='8' />
+              <column datatype='integer' name='$35,000 to $49,999' ordinal='9' />
+              <column datatype='real' name='% $35,000 to $49,999' ordinal='10' />
+              <column datatype='integer' name='$50,000 to $74,999' ordinal='11' />
+              <column datatype='real' name='% $50,000 to $74,999' ordinal='12' />
+              <column datatype='integer' name='$75,000 to $99,999' ordinal='13' />
+              <column datatype='real' name='% $75,000 to $99,999' ordinal='14' />
+              <column datatype='integer' name='$100,000 to $149,999' ordinal='15' />
+              <column datatype='real' name='% $100,000 to $149,999' ordinal='16' />
+              <column datatype='integer' name='$150,000 +' ordinal='17' />
+              <column datatype='real' name='% $150,000 +' ordinal='18' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[$100,000 to $149,999]' value='[Household Income].[$100,000 to $149,999]' />
+          <map key='[$14,999 and under]' value='[Household Income].[$14,999 and under]' />
+          <map key='[$15,000 to $24,999]' value='[Household Income].[$15,000 to $24,999]' />
+          <map key='[$150,000 +]' value='[Household Income].[$150,000 +]' />
+          <map key='[$25,000 to $34,999]' value='[Household Income].[$25,000 to $34,999]' />
+          <map key='[$35,000 to $49,999]' value='[Household Income].[$35,000 to $49,999]' />
+          <map key='[$50,000 to $74,999]' value='[Household Income].[$50,000 to $74,999]' />
+          <map key='[$75,000 to $99,999]' value='[Household Income].[$75,000 to $99,999]' />
+          <map key='[% $100,000 to $149,999]' value='[Household Income].[% $100,000 to $149,999]' />
+          <map key='[% $15,000 to $24,999]' value='[Household Income].[% $15,000 to $24,999]' />
+          <map key='[% $150,000 +]' value='[Household Income].[% $150,000 +]' />
+          <map key='[% $25,000 to $34,999]' value='[Household Income].[% $25,000 to $34,999]' />
+          <map key='[% $35,000 to $49,999]' value='[Household Income].[% $35,000 to $49,999]' />
+          <map key='[% $50,000 to $74,999]' value='[Household Income].[% $50,000 to $74,999]' />
+          <map key='[% $75,000 to $99,999]' value='[Household Income].[% $75,000 to $99,999]' />
+          <map key='[% 14,999 and under]' value='[Household Income].[% 14,999 and under]' />
+          <map key='[% 1]' value='[Educational Attainment].[% 1]' />
+          <map key='[% 2]' value='[Educational Attainment].[% 2]' />
+          <map key='[% 3]' value='[Educational Attainment].[% 3]' />
+          <map key='[% 4]' value='[Educational Attainment].[% 4]' />
+          <map key='[% Associates]' value='[Educational Attainment].[% Associates]' />
+          <map key='[% Bachelors]' value='[Educational Attainment].[% Bachelors]' />
+          <map key='[% GED or Alternative]' value='[Educational Attainment].[% GED or Alternative]' />
+          <map key='[% High School Grad]' value='[Educational Attainment].[% High School Grad]' />
+          <map key='[% Less than High School]' value='[Educational Attainment].[% Less than High School]' />
+          <map key='[% Masters or More]' value='[Educational Attainment].[% Masters or More]' />
+          <map key='[% Some College]' value='[Educational Attainment].[% Some College]' />
+          <map key='[%]' value='[Educational Attainment].[%]' />
+          <map key='[Associate&apos;s Degree]' value='[Educational Attainment].[Associate&apos;s Degree]' />
+          <map key='[Bachelor&apos;s Degree 1]' value='[Educational Attainment].[Bachelor&apos;s Degree 1]' />
+          <map key='[Bachelor&apos;s Degree]' value='[Educational Attainment].[Bachelor&apos;s Degree]' />
+          <map key='[F17]' value='[Educational Attainment].[F17]' />
+          <map key='[F18]' value='[Educational Attainment].[F18]' />
+          <map key='[GED or Alternative Credential]' value='[Educational Attainment].[GED or Alternative Credential]' />
+          <map key='[High School Graduate/GED or Alternative Credential]' value='[Educational Attainment].[High School Graduate/GED or Alternative Credential]' />
+          <map key='[High School Graduate]' value='[Educational Attainment].[High School Graduate]' />
+          <map key='[Less than High School 1]' value='[Educational Attainment].[Less than High School 1]' />
+          <map key='[Less than High School]' value='[Educational Attainment].[Less than High School]' />
+          <map key='[Master&apos;s Degree or more 1]' value='[Educational Attainment].[Master&apos;s Degree or more 1]' />
+          <map key='[Master&apos;s Degree or more]' value='[Educational Attainment].[Master&apos;s Degree or more]' />
+          <map key='[Median Income]' value='[Household Income].[Median Income]' />
+          <map key='[Some College/Associate&apos;s Degree]' value='[Educational Attainment].[Some College/Associate&apos;s Degree]' />
+          <map key='[Some College]' value='[Educational Attainment].[Some College]' />
+          <map key='[Total Households]' value='[Household Income].[Total Households]' />
+          <map key='[Total population 25 years and over 1]' value='[Educational Attainment].[Total population 25 years and over 1]' />
+          <map key='[Total population 25 years and over]' value='[Educational Attainment].[Total population 25 years and over]' />
+          <map key='[neighborhood (Household Income)]' value='[Household Income].[neighborhood]' />
+          <map key='[neighborhood]' value='[Educational Attainment].[neighborhood]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AC33:no:A1:AC33:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S34:no:A1:S34:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>neighborhood</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[neighborhood]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>neighborhood</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total population 25 years and over</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total population 25 years and over]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Total population 25 years and over</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less than High School</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Less than High School]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Less than High School</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Less than High School</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Less than High School]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% Less than High School</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High School Graduate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[High School Graduate]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>High School Graduate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% High School Grad</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% High School Grad]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% High School Grad</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GED or Alternative Credential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GED or Alternative Credential]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>GED or Alternative Credential</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% GED or Alternative</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% GED or Alternative]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% GED or Alternative</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Some College</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Some College]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Some College</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Some College</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Some College]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% Some College</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Associate&apos;s Degree</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Associate&apos;s Degree]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Associate&apos;s Degree</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Associates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Associates]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% Associates</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bachelor&apos;s Degree</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bachelor&apos;s Degree]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Bachelor&apos;s Degree</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Bachelors</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Bachelors]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% Bachelors</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Master&apos;s Degree or more</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Master&apos;s Degree or more]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Master&apos;s Degree or more</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Masters or More</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Masters or More]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% Masters or More</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total population 25 years and over 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total population 25 years and over 1]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Total population 25 years and over 1</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less than High School 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Less than High School 1]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Less than High School 1</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[%]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>%</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High School Graduate/GED or Alternative Credential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[High School Graduate/GED or Alternative Credential]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>High School Graduate/GED or Alternative Credential</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% 1]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% 1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Some College/Associate&apos;s Degree</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Some College/Associate&apos;s Degree]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Some College/Associate&apos;s Degree</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% 2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% 2]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% 2</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bachelor&apos;s Degree 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bachelor&apos;s Degree 1]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Bachelor&apos;s Degree 1</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% 3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% 3]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% 3</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Master&apos;s Degree or more 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Master&apos;s Degree or more 1]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>Master&apos;s Degree or more 1</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% 4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% 4]</local-name>
+            <parent-name>[Educational Attainment]</parent-name>
+            <remote-alias>% 4</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Educational Attainment_D233856B38C74C82B50511BD3211D157]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>neighborhood</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[neighborhood (Household Income)]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>neighborhood</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median Income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Median Income]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>Median Income</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Households</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Households]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>Total Households</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$14,999 and under</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$14,999 and under]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>$14,999 and under</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% 14,999 and under</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% 14,999 and under]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>% 14,999 and under</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$15,000 to $24,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$15,000 to $24,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>$15,000 to $24,999</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% $15,000 to $24,999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% $15,000 to $24,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>% $15,000 to $24,999</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$25,000 to $34,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$25,000 to $34,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>$25,000 to $34,999</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% $25,000 to $34,999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% $25,000 to $34,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>% $25,000 to $34,999</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$35,000 to $49,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$35,000 to $49,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>$35,000 to $49,999</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% $35,000 to $49,999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% $35,000 to $49,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>% $35,000 to $49,999</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$50,000 to $74,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$50,000 to $74,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>$50,000 to $74,999</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% $50,000 to $74,999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% $50,000 to $74,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>% $50,000 to $74,999</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$75,000 to $99,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$75,000 to $99,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>$75,000 to $99,999</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% $75,000 to $99,999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% $75,000 to $99,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>% $75,000 to $99,999</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$100,000 to $149,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$100,000 to $149,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>$100,000 to $149,999</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% $100,000 to $149,999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% $100,000 to $149,999]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>% $100,000 to $149,999</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$150,000 +</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$150,000 +]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>$150,000 +</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% $150,000 +</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% $150,000 +]</local-name>
+            <parent-name>[Household Income]</parent-name>
+            <remote-alias>% $150,000 +</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Household Income_CD0EE64135C347FB820FFAAA446473F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='$100,000 To $149,999' datatype='integer' name='[$100,000 to $149,999]' role='measure' type='quantitative' />
+      <column caption='$14,999 And Under' datatype='integer' name='[$14,999 and under]' role='measure' type='quantitative' />
+      <column caption='$15,000 To $24,999' datatype='integer' name='[$15,000 to $24,999]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[$150,000 +]' role='measure' type='quantitative' />
+      <column caption='$25,000 To $34,999' datatype='integer' name='[$25,000 to $34,999]' role='measure' type='quantitative' />
+      <column caption='$35,000 To $49,999' datatype='integer' name='[$35,000 to $49,999]' role='measure' type='quantitative' />
+      <column caption='$50,000 To $74,999' datatype='integer' name='[$50,000 to $74,999]' role='measure' type='quantitative' />
+      <column caption='$75,000 To $99,999' datatype='integer' name='[$75,000 to $99,999]' role='measure' type='quantitative' />
+      <column caption='% $100,000 To $149,999' datatype='real' name='[% $100,000 to $149,999]' role='measure' type='quantitative' />
+      <column caption='% $14,999 And Under' datatype='real' name='[% $14,999 and under]' role='measure' type='quantitative' />
+      <column caption='% $15,000 To $24,999' datatype='real' name='[% $15,000 to $24,999]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% $150,000 +]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% $150,000+]' role='measure' type='quantitative' />
+      <column caption='% $25,000 To $34,999' datatype='real' name='[% $25,000 to $34,999]' role='measure' type='quantitative' />
+      <column caption='% $35,000 To $49,999' datatype='real' name='[% $35,000 to $49,999]' role='measure' type='quantitative' />
+      <column caption='% $50,000 To $74,999' datatype='real' name='[% $50,000 to $74,999]' role='measure' type='quantitative' />
+      <column caption='% $75,000 To $99,999' datatype='real' name='[% $75,000 to $99,999]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% 14,999 and under]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% 1]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% 2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% 3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% Associates]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% Bachelors]' role='measure' type='quantitative' />
+      <column caption='% GED or Alternative' datatype='real' name='[% GED or Alt]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% GED or Alternative]' role='measure' type='quantitative' />
+      <column caption='% High School Grad' datatype='real' name='[% HS Grad]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% High School Grad]' role='measure' type='quantitative' />
+      <column caption='% Less than High School' datatype='real' name='[% Less than HS]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% Less than High School]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% Masters or More]' role='measure' type='quantitative' />
+      <column datatype='real' name='[% Some College]' role='measure' type='quantitative' />
+      <column datatype='real' name='[%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Median Income]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Educational Attainment' datatype='table' name='[__tableau_internal_object_id__].[Educational Attainment_D233856B38C74C82B50511BD3211D157]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Household Income' datatype='table' name='[__tableau_internal_object_id__].[Household Income_CD0EE64135C347FB820FFAAA446473F5]' role='measure' type='quantitative' />
+      <column caption='Neighborhood (income)' datatype='string' name='[neighborhood (Household Income)]' role='dimension' type='nominal' />
+      <column caption='Neighborhood' datatype='string' name='[neighborhood]' role='dimension' type='nominal' />
+      <column-instance column='[% GED or Alt]' derivation='Attribute' name='[attr:% GED or Alt:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% HS Grad]' derivation='Attribute' name='[attr:% HS Grad:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Less than HS]' derivation='Attribute' name='[attr:% Less than HS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[$100,000 to $149,999]' derivation='Sum' name='[sum:$100,000 to $149,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[$14,999 and under]' derivation='Sum' name='[sum:$14,999 and under:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[$15,000 to $24,999]' derivation='Sum' name='[sum:$15,000 to $24,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[$150,000 +]' derivation='Sum' name='[sum:$150,000 +:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[$25,000 to $34,999]' derivation='Sum' name='[sum:$25,000 to $34,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[$35,000 to $49,999]' derivation='Sum' name='[sum:$35,000 to $49,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[$50,000 to $74,999]' derivation='Sum' name='[sum:$50,000 to $74,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[$75,000 to $99,999]' derivation='Sum' name='[sum:$75,000 to $99,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $100,000 to $149,999]' derivation='Sum' name='[sum:% $100,000 to $149,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $14,999 and under]' derivation='Sum' name='[sum:% $14,999 and under:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $15,000 to $24,999]' derivation='Sum' name='[sum:% $15,000 to $24,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $150,000 +]' derivation='Sum' name='[sum:% $150,000 +:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $150,000+]' derivation='Sum' name='[sum:% $150,000+:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $25,000 to $34,999]' derivation='Sum' name='[sum:% $25,000 to $34,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $35,000 to $49,999]' derivation='Sum' name='[sum:% $35,000 to $49,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $50,000 to $74,999]' derivation='Sum' name='[sum:% $50,000 to $74,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% $75,000 to $99,999]' derivation='Sum' name='[sum:% $75,000 to $99,999:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% 14,999 and under]' derivation='Sum' name='[sum:% 14,999 and under:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% 1]' derivation='Sum' name='[sum:% 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% 2]' derivation='Sum' name='[sum:% 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% 3]' derivation='Sum' name='[sum:% 3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Associates]' derivation='Sum' name='[sum:% Associates:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Bachelors]' derivation='Sum' name='[sum:% Bachelors:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% GED or Alt]' derivation='Sum' name='[sum:% GED or Alt:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% GED or Alternative]' derivation='Sum' name='[sum:% GED or Alternative:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% HS Grad]' derivation='Sum' name='[sum:% HS Grad:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% High School Grad]' derivation='Sum' name='[sum:% High School Grad:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Less than HS]' derivation='Sum' name='[sum:% Less than HS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Less than High School]' derivation='Sum' name='[sum:% Less than High School:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Masters or More]' derivation='Sum' name='[sum:% Masters or More:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Some College]' derivation='Sum' name='[sum:% Some College:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[%]' derivation='Sum' name='[sum:%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Median Income]' derivation='Sum' name='[sum:Median Income:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#146c36'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Less than High School:qk]&quot;</bucket>
+            </map>
+            <map to='#146c36'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Less than HS:qk]&quot;</bucket>
+            </map>
+            <map to='#2c5985'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $14,999 and under:qk]&quot;</bucket>
+            </map>
+            <map to='#347ea1'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $15,000 to $24,999:qk]&quot;</bucket>
+            </map>
+            <map to='#3a8a4d'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% High School Grad:qk]&quot;</bucket>
+            </map>
+            <map to='#3a8a4d'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% HS Grad:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:$35,000 to $49,999:qk]&quot;</bucket>
+            </map>
+            <map to='#4ba5ba'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $25,000 to $34,999:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[attr:\% HS Grad:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz]&quot;</bucket>
+            </map>
+            <map to='#67a956'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% GED or Alt:qk]&quot;</bucket>
+            </map>
+            <map to='#67a956'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% GED or Alternative:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\%:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:$50,000 to $74,999:qk]&quot;</bucket>
+            </map>
+            <map to='#89c8cc'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $35,000 to $49,999:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:$15,000 to $24,999:qk]&quot;</bucket>
+            </map>
+            <map to='#98d687'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:Median Income:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% 2:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:$100,000 to $149,999:qk]&quot;</bucket>
+            </map>
+            <map to='#a1d5d2'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $50,000 to $74,999:qk]&quot;</bucket>
+            </map>
+            <map to='#a5cfe9'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $100,000 to $149,999:qk]&quot;</bucket>
+            </map>
+            <map to='#aedcd5'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $75,000 to $99,999:qk]&quot;</bucket>
+            </map>
+            <map to='#b2c25b'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Associates:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:$150,000 +:qk]&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $150,000 +:qk]&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $150,000+:qk]&quot;</bucket>
+            </map>
+            <map to='#c3c55d'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Some College:qk]&quot;</bucket>
+            </map>
+            <map to='#d3c95f'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Bachelors:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% 1:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% 3:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[attr:\% GED or Alt:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:$25,000 to $34,999:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[attr:\% Less than HS:qk]&quot;</bucket>
+            </map>
+            <map to='#f7d42a'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Masters or More:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:$75,000 to $99,999:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% 14,999 and under:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:$14,999 and under:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Educational Attainment' id='Educational Attainment_D233856B38C74C82B50511BD3211D157'>
+            <properties context=''>
+              <relation connection='excel-direct.1os7f0o1fb6lxo177p8d006dk8rw' name='Educational Attainment' table='[&apos;Educational Attainment$&apos;]' type='table'>
+                <columns gridOrigin='A1:AC33:no:A1:AC33:0' header='yes' outcome='2'>
+                  <column datatype='string' name='neighborhood' ordinal='0' />
+                  <column datatype='integer' name='Total population 25 years and over' ordinal='1' />
+                  <column datatype='integer' name='Less than High School' ordinal='2' />
+                  <column datatype='real' name='% Less than High School' ordinal='3' />
+                  <column datatype='integer' name='High School Graduate' ordinal='4' />
+                  <column datatype='real' name='% High School Grad' ordinal='5' />
+                  <column datatype='integer' name='GED or Alternative Credential' ordinal='6' />
+                  <column datatype='real' name='% GED or Alternative' ordinal='7' />
+                  <column datatype='integer' name='Some College' ordinal='8' />
+                  <column datatype='real' name='% Some College' ordinal='9' />
+                  <column datatype='integer' name='Associate&apos;s Degree' ordinal='10' />
+                  <column datatype='real' name='% Associates' ordinal='11' />
+                  <column datatype='integer' name='Bachelor&apos;s Degree' ordinal='12' />
+                  <column datatype='real' name='% Bachelors' ordinal='13' />
+                  <column datatype='integer' name='Master&apos;s Degree or more' ordinal='14' />
+                  <column datatype='real' name='% Masters or More' ordinal='15' />
+                  <column datatype='real' name='F17' ordinal='16' />
+                  <column datatype='string' name='F18' ordinal='17' />
+                  <column datatype='integer' name='Total population 25 years and over 1' ordinal='18' />
+                  <column datatype='integer' name='Less than High School 1' ordinal='19' />
+                  <column datatype='real' name='%' ordinal='20' />
+                  <column datatype='integer' name='High School Graduate/GED or Alternative Credential' ordinal='21' />
+                  <column datatype='real' name='% 1' ordinal='22' />
+                  <column datatype='integer' name='Some College/Associate&apos;s Degree' ordinal='23' />
+                  <column datatype='real' name='% 2' ordinal='24' />
+                  <column datatype='integer' name='Bachelor&apos;s Degree 1' ordinal='25' />
+                  <column datatype='real' name='% 3' ordinal='26' />
+                  <column datatype='integer' name='Master&apos;s Degree or more 1' ordinal='27' />
+                  <column datatype='real' name='% 4' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='Household Income' id='Household Income_CD0EE64135C347FB820FFAAA446473F5'>
+            <properties context=''>
+              <relation connection='excel-direct.1os7f0o1fb6lxo177p8d006dk8rw' name='Household Income' table='[&apos;Household Income$&apos;]' type='table'>
+                <columns gridOrigin='A1:S34:no:A1:S34:0' header='yes' outcome='2'>
+                  <column datatype='string' name='neighborhood' ordinal='0' />
+                  <column datatype='real' name='Median Income' ordinal='1' />
+                  <column datatype='integer' name='Total Households' ordinal='2' />
+                  <column datatype='integer' name='$14,999 and under' ordinal='3' />
+                  <column datatype='real' name='% 14,999 and under' ordinal='4' />
+                  <column datatype='integer' name='$15,000 to $24,999' ordinal='5' />
+                  <column datatype='real' name='% $15,000 to $24,999' ordinal='6' />
+                  <column datatype='integer' name='$25,000 to $34,999' ordinal='7' />
+                  <column datatype='real' name='% $25,000 to $34,999' ordinal='8' />
+                  <column datatype='integer' name='$35,000 to $49,999' ordinal='9' />
+                  <column datatype='real' name='% $35,000 to $49,999' ordinal='10' />
+                  <column datatype='integer' name='$50,000 to $74,999' ordinal='11' />
+                  <column datatype='real' name='% $50,000 to $74,999' ordinal='12' />
+                  <column datatype='integer' name='$75,000 to $99,999' ordinal='13' />
+                  <column datatype='real' name='% $75,000 to $99,999' ordinal='14' />
+                  <column datatype='integer' name='$100,000 to $149,999' ordinal='15' />
+                  <column datatype='real' name='% $100,000 to $149,999' ordinal='16' />
+                  <column datatype='integer' name='$150,000 +' ordinal='17' />
+                  <column datatype='real' name='% $150,000 +' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[neighborhood]' />
+              <expression op='[neighborhood (Household Income)]' />
+            </expression>
+            <first-end-point object-id='Educational Attainment_D233856B38C74C82B50511BD3211D157' />
+            <second-end-point object-id='Household Income_CD0EE64135C347FB820FFAAA446473F5' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Education Rates by Neighborhood</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Educational Attainment (2015-2019_neighborhood_tables_2021.12.21)' name='federated.0rutp1e0anofrh1728jtf0popoaz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rutp1e0anofrh1728jtf0popoaz'>
+            <column datatype='real' name='[% Associates]' role='measure' type='quantitative' />
+            <column datatype='real' name='[% Bachelors]' role='measure' type='quantitative' />
+            <column datatype='real' name='[% GED or Alternative]' role='measure' type='quantitative' />
+            <column datatype='real' name='[% High School Grad]' role='measure' type='quantitative' />
+            <column caption='% Less than High School' datatype='real' name='[% Less than HS]' role='measure' type='quantitative' />
+            <column datatype='real' name='[% Less than High School]' role='measure' type='quantitative' />
+            <column datatype='real' name='[% Masters or More]' role='measure' type='quantitative' />
+            <column datatype='real' name='[% Some College]' role='measure' type='quantitative' />
+            <column caption='Neighborhood' datatype='string' name='[neighborhood]' role='dimension' type='nominal' />
+            <column-instance column='[neighborhood]' derivation='None' name='[none:neighborhood:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% Associates]' derivation='Sum' name='[sum:% Associates:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% Bachelors]' derivation='Sum' name='[sum:% Bachelors:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% GED or Alternative]' derivation='Sum' name='[sum:% GED or Alternative:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% High School Grad]' derivation='Sum' name='[sum:% High School Grad:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% Less than HS]' derivation='Sum' name='[sum:% Less than HS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% Less than High School]' derivation='Sum' name='[sum:% Less than High School:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% Masters or More]' derivation='Sum' name='[sum:% Masters or More:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% Some College]' derivation='Sum' name='[sum:% Some College:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Masters or More:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Bachelors:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Some College:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Associates:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% GED or Alternative:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% High School Grad:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Less than High School:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Masters or More:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Bachelors:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Some College:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Associates:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% GED or Alternative:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% High School Grad:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% Less than HS:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:neighborhood:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:neighborhood:nk]' member='&quot;Source: U.S. Census Bureau, 2015-2019 American Community Survey, BPDA Research Division Analysis&quot;' />
+                <groupfilter function='member' level='[none:neighborhood:nk]' member='&quot;Table ID:  B15003&quot;' />
+                <groupfilter function='member' level='[none:neighborhood:nk]' member='&quot;Table Name: Educational Attainment for the Population 25 Years an Over&quot;' />
+                <groupfilter function='member' level='[none:neighborhood:nk]' member='&quot;Universe: Population 25 years and over&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Roxbury&quot;</bucket>
+              <bucket>&quot;Allston&quot;</bucket>
+              <bucket>&quot;Back Bay&quot;</bucket>
+              <bucket>&quot;Beacon Hill&quot;</bucket>
+              <bucket>&quot;Brighton&quot;</bucket>
+              <bucket>&quot;Charlestown&quot;</bucket>
+              <bucket>&quot;Dorchester&quot;</bucket>
+              <bucket>&quot;Downtown&quot;</bucket>
+              <bucket>&quot;East Boston&quot;</bucket>
+              <bucket>&quot;Fenway&quot;</bucket>
+              <bucket>&quot;Hyde Park&quot;</bucket>
+              <bucket>&quot;Jamaica Plain&quot;</bucket>
+              <bucket>&quot;Longwood&quot;</bucket>
+              <bucket>&quot;Mattapan&quot;</bucket>
+              <bucket>&quot;Mission Hill&quot;</bucket>
+              <bucket>&quot;North End&quot;</bucket>
+              <bucket>&quot;Roslindale&quot;</bucket>
+              <bucket>&quot;South Boston&quot;</bucket>
+              <bucket>&quot;South Boston Waterfront&quot;</bucket>
+              <bucket>&quot;South End&quot;</bucket>
+              <bucket>&quot;West End&quot;</bucket>
+              <bucket>&quot;West Roxbury&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood:nk]</column>
+            <column>[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0rutp1e0anofrh1728jtf0popoaz].[Multiple Values]' scope='rows' value='Percentage of Population over 25' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0rutp1e0anofrh1728jtf0popoaz].[Multiple Values]</rows>
+        <cols>[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood:nk]</cols>
+      </table>
+      <simple-id uuid='{B5941A22-EB19-471B-8033-41F08525CE11}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Neighborhood Income Measures</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Educational Attainment (2015-2019_neighborhood_tables_2021.12.21)' name='federated.0rutp1e0anofrh1728jtf0popoaz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rutp1e0anofrh1728jtf0popoaz'>
+            <column caption='% $100,000 To $149,999' datatype='real' name='[% $100,000 to $149,999]' role='measure' type='quantitative' />
+            <column caption='% $15,000 To $24,999' datatype='real' name='[% $15,000 to $24,999]' role='measure' type='quantitative' />
+            <column datatype='real' name='[% $150,000 +]' role='measure' type='quantitative' />
+            <column caption='% $25,000 To $34,999' datatype='real' name='[% $25,000 to $34,999]' role='measure' type='quantitative' />
+            <column caption='% $35,000 To $49,999' datatype='real' name='[% $35,000 to $49,999]' role='measure' type='quantitative' />
+            <column caption='% $50,000 To $74,999' datatype='real' name='[% $50,000 to $74,999]' role='measure' type='quantitative' />
+            <column caption='% $75,000 To $99,999' datatype='real' name='[% $75,000 to $99,999]' role='measure' type='quantitative' />
+            <column datatype='real' name='[% 14,999 and under]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Median Income]' role='measure' type='quantitative' />
+            <column caption='Neighborhood (income)' datatype='string' name='[neighborhood (Household Income)]' role='dimension' type='nominal' />
+            <column-instance column='[neighborhood (Household Income)]' derivation='None' name='[none:neighborhood (Household Income):nk]' pivot='key' type='nominal' />
+            <column-instance column='[% $100,000 to $149,999]' derivation='Sum' name='[sum:% $100,000 to $149,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% $15,000 to $24,999]' derivation='Sum' name='[sum:% $15,000 to $24,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% $150,000 +]' derivation='Sum' name='[sum:% $150,000 +:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% $25,000 to $34,999]' derivation='Sum' name='[sum:% $25,000 to $34,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% $35,000 to $49,999]' derivation='Sum' name='[sum:% $35,000 to $49,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% $50,000 to $74,999]' derivation='Sum' name='[sum:% $50,000 to $74,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% $75,000 to $99,999]' derivation='Sum' name='[sum:% $75,000 to $99,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% 14,999 and under]' derivation='Sum' name='[sum:% 14,999 and under:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Median Income]' derivation='Sum' name='[sum:Median Income:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $150,000 +:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $100,000 to $149,999:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $75,000 to $99,999:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $50,000 to $74,999:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $35,000 to $49,999:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $25,000 to $34,999:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $15,000 to $24,999:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% 14,999 and under:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $150,000 +:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $100,000 to $149,999:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $75,000 to $99,999:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $50,000 to $74,999:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $35,000 to $49,999:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $25,000 to $34,999:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% $15,000 to $24,999:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:\% 14,999 and under:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:Median Income:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood (Household Income):nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:neighborhood (Household Income):nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:neighborhood (Household Income):nk]' member='&quot;Note: Use Census income buckets for Median Calculator buckets&quot;' />
+                <groupfilter function='member' level='[none:neighborhood (Household Income):nk]' member='&quot;Source: U.S. Census Bureau, 2015-2019 American Community Survey, BPDA Research Division Analysis&quot;' />
+                <groupfilter function='member' level='[none:neighborhood (Household Income):nk]' member='&quot;Table ID:  B19001&quot;' />
+                <groupfilter function='member' level='[none:neighborhood (Household Income):nk]' member='&quot;Table Name: Household Income in the Past 12 Months&quot;' />
+                <groupfilter function='member' level='[none:neighborhood (Household Income):nk]' member='&quot;Universe: Households&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood (Household Income):nk]' direction='ASC' using='[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:Median Income:qk]' />
+          <slices>
+            <column>[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]</column>
+            <column>[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood (Household Income):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0rutp1e0anofrh1728jtf0popoaz].[Multiple Values]' scope='rows' value='Percent Population in Income Bracket' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='36' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='281' />
+                <format attr='maxheight' value='281' />
+                <format attr='minwidth' value='880' />
+                <format attr='maxwidth' value='880' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rutp1e0anofrh1728jtf0popoaz].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rutp1e0anofrh1728jtf0popoaz].[sum:Median Income:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0rutp1e0anofrh1728jtf0popoaz].[sum:Median Income:qk] + [federated.0rutp1e0anofrh1728jtf0popoaz].[Multiple Values])</rows>
+        <cols>[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood (Household Income):nk]</cols>
+      </table>
+      <simple-id uuid='{BB6B71B1-85C4-4D26-A6B4-0F2FB84B6F08}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]</field>
+            <field>[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5D4D4DC3-0956-4347-9F8C-FA120763A7A8}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rutp1e0anofrh1728jtf0popoaz].[:Measure Names]</field>
+            <field>[federated.0rutp1e0anofrh1728jtf0popoaz].[none:neighborhood (Household Income):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{21EE70FE-B892-4AD7-8E4C-85B33E37CAB6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
