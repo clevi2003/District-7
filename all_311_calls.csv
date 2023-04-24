@@ -1,0 +1,226 @@
+,type_bin,count,district,Year
+0,Other,39620,1,2022
+1,Dead Animals and Pests,1572,1,2022
+2,Safety Concerns,851,1,2022
+3,Needle Pickup,463,1,2022
+4,Lack of Utilities,39,1,2022
+0,Other,50526,2,2022
+1,Needle Pickup,2382,2,2022
+2,Dead Animals and Pests,1989,2,2022
+3,Safety Concerns,1266,2,2022
+4,Lack of Utilities,56,2,2022
+0,Other,22696,3,2022
+1,Needle Pickup,1075,3,2022
+2,Safety Concerns,1148,3,2022
+3,Dead Animals and Pests,1586,3,2022
+4,Lack of Utilities,48,3,2022
+0,Other,19057,4,2022
+1,Safety Concerns,1327,4,2022
+2,Dead Animals and Pests,897,4,2022
+3,Needle Pickup,121,4,2022
+4,Lack of Utilities,124,4,2022
+0,Other,20490,5,2022
+1,Dead Animals and Pests,1038,5,2022
+2,Safety Concerns,811,5,2022
+3,Needle Pickup,51,5,2022
+4,Lack of Utilities,45,5,2022
+0,Other,22831,6,2022
+1,Dead Animals and Pests,1113,6,2022
+2,Safety Concerns,798,6,2022
+3,Needle Pickup,213,6,2022
+4,Lack of Utilities,39,6,2022
+0,Other,26796,7,2022
+1,Needle Pickup,1512,7,2022
+2,Safety Concerns,1435,7,2022
+3,Dead Animals and Pests,1556,7,2022
+4,Lack of Utilities,108,7,2022
+0,Other,22252,8,2022
+1,Dead Animals and Pests,1284,8,2022
+2,Safety Concerns,684,8,2022
+3,Needle Pickup,460,8,2022
+4,Lack of Utilities,15,8,2022
+0,Other,20107,9,2022
+1,Safety Concerns,1329,9,2022
+2,Dead Animals and Pests,1609,9,2022
+3,Needle Pickup,542,9,2022
+4,Lack of Utilities,34,9,2022
+0,Other,38164,1,2021
+1,Dead Animals and Pests,1507,1,2021
+2,Safety Concerns,874,1,2021
+3,Needle Pickup,514,1,2021
+4,Lack of Utilities,37,1,2021
+0,Other,50842,2,2021
+1,Needle Pickup,3017,2,2021
+2,Safety Concerns,1325,2,2021
+3,Dead Animals and Pests,1770,2,2021
+4,Lack of Utilities,37,2,2021
+0,Other,23437,3,2021
+1,Needle Pickup,1037,3,2021
+2,Safety Concerns,1208,3,2021
+3,Dead Animals and Pests,1292,3,2021
+4,Lack of Utilities,38,3,2021
+0,Other,20673,4,2021
+1,Safety Concerns,1353,4,2021
+2,Dead Animals and Pests,894,4,2021
+3,Needle Pickup,98,4,2021
+4,Lack of Utilities,109,4,2021
+0,Other,20816,5,2021
+1,Dead Animals and Pests,936,5,2021
+2,Safety Concerns,847,5,2021
+3,Needle Pickup,68,5,2021
+4,Lack of Utilities,43,5,2021
+0,Other,22393,6,2021
+1,Dead Animals and Pests,1130,6,2021
+2,Safety Concerns,741,6,2021
+3,Needle Pickup,197,6,2021
+4,Lack of Utilities,47,6,2021
+0,Other,26234,7,2021
+1,Needle Pickup,1851,7,2021
+2,Safety Concerns,1550,7,2021
+3,Dead Animals and Pests,1336,7,2021
+4,Lack of Utilities,112,7,2021
+0,Other,20126,8,2021
+1,Safety Concerns,722,8,2021
+2,Needle Pickup,465,8,2021
+3,Dead Animals and Pests,788,8,2021
+4,Lack of Utilities,23,8,2021
+0,Other,19273,9,2021
+1,Safety Concerns,1051,9,2021
+2,Needle Pickup,601,9,2021
+3,Dead Animals and Pests,1199,9,2021
+4,Lack of Utilities,38,9,2021
+0,Other,33548,1,2020
+1,Safety Concerns,1065,1,2020
+2,Dead Animals and Pests,1274,1,2020
+3,Needle Pickup,493,1,2020
+4,Lack of Utilities,26,1,2020
+0,Other,38346,2,2020
+1,Needle Pickup,5173,2,2020
+2,Safety Concerns,1382,2,2020
+3,Dead Animals and Pests,1438,2,2020
+4,Lack of Utilities,18,2,2020
+0,Other,22415,3,2020
+1,Needle Pickup,1833,3,2020
+2,Safety Concerns,985,3,2020
+3,Dead Animals and Pests,1116,3,2020
+4,Lack of Utilities,21,3,2020
+0,Other,19732,4,2020
+1,Safety Concerns,1268,4,2020
+2,Dead Animals and Pests,860,4,2020
+3,Needle Pickup,97,4,2020
+4,Lack of Utilities,65,4,2020
+0,Other,21959,5,2020
+1,Dead Animals and Pests,991,5,2020
+2,Safety Concerns,749,5,2020
+3,Needle Pickup,58,5,2020
+4,Lack of Utilities,46,5,2020
+0,Other,20747,6,2020
+1,Dead Animals and Pests,1048,6,2020
+2,Safety Concerns,768,6,2020
+3,Needle Pickup,267,6,2020
+4,Lack of Utilities,31,6,2020
+0,Needle Pickup,3996,7,2020
+1,Other,22112,7,2020
+2,Safety Concerns,1320,7,2020
+3,Dead Animals and Pests,1160,7,2020
+4,Lack of Utilities,64,7,2020
+0,Other,16548,8,2020
+1,Needle Pickup,736,8,2020
+2,Safety Concerns,853,8,2020
+3,Dead Animals and Pests,815,8,2020
+4,Lack of Utilities,25,8,2020
+0,Other,18576,9,2020
+1,Needle Pickup,1413,9,2020
+2,Safety Concerns,1091,9,2020
+3,Dead Animals and Pests,1495,9,2020
+4,Lack of Utilities,24,9,2020
+0,Other,35720,1,2019
+1,Safety Concerns,1068,1,2019
+2,Dead Animals and Pests,1047,1,2019
+3,Needle Pickup,407,1,2019
+4,Lack of Utilities,37,1,2019
+0,Other,42577,2,2019
+1,Needle Pickup,2654,2,2019
+2,Safety Concerns,1442,2,2019
+3,Dead Animals and Pests,1242,2,2019
+4,Lack of Utilities,45,2,2019
+0,Other,21976,3,2019
+1,Needle Pickup,1107,3,2019
+2,Safety Concerns,1169,3,2019
+3,Dead Animals and Pests,872,3,2019
+4,Lack of Utilities,65,3,2019
+0,Other,18185,4,2019
+1,Safety Concerns,1287,4,2019
+2,Dead Animals and Pests,761,4,2019
+3,Needle Pickup,86,4,2019
+4,Lack of Utilities,102,4,2019
+0,Other,19905,5,2019
+1,Dead Animals and Pests,824,5,2019
+2,Safety Concerns,913,5,2019
+3,Needle Pickup,68,5,2019
+4,Lack of Utilities,48,5,2019
+0,Other,23083,6,2019
+1,Dead Animals and Pests,904,6,2019
+2,Safety Concerns,776,6,2019
+3,Needle Pickup,203,6,2019
+4,Lack of Utilities,53,6,2019
+0,Other,24321,7,2019
+1,Needle Pickup,2116,7,2019
+2,Safety Concerns,1298,7,2019
+3,Dead Animals and Pests,1028,7,2019
+4,Lack of Utilities,96,7,2019
+0,Other,22503,8,2019
+1,Safety Concerns,916,8,2019
+2,Needle Pickup,534,8,2019
+3,Dead Animals and Pests,779,8,2019
+4,Lack of Utilities,29,8,2019
+0,Other,20554,9,2019
+1,Needle Pickup,884,9,2019
+2,Safety Concerns,1023,9,2019
+3,Dead Animals and Pests,841,9,2019
+4,Lack of Utilities,24,9,2019
+0,Other,34250,1,2018
+1,Safety Concerns,1080,1,2018
+2,Dead Animals and Pests,1081,1,2018
+3,Needle Pickup,337,1,2018
+4,Lack of Utilities,41,1,2018
+0,Other,43429,2,2018
+1,Needle Pickup,1418,2,2018
+2,Safety Concerns,1415,2,2018
+3,Dead Animals and Pests,1150,2,2018
+4,Lack of Utilities,62,2,2018
+0,Other,21153,3,2018
+1,Safety Concerns,1165,3,2018
+2,Needle Pickup,588,3,2018
+3,Dead Animals and Pests,932,3,2018
+4,Lack of Utilities,90,3,2018
+0,Other,17971,4,2018
+1,Safety Concerns,1445,4,2018
+2,Dead Animals and Pests,793,4,2018
+3,Needle Pickup,58,4,2018
+4,Lack of Utilities,151,4,2018
+0,Other,20716,5,2018
+1,Safety Concerns,960,5,2018
+2,Dead Animals and Pests,730,5,2018
+3,Needle Pickup,59,5,2018
+4,Lack of Utilities,76,5,2018
+0,Other,24172,6,2018
+1,Safety Concerns,946,6,2018
+2,Dead Animals and Pests,871,6,2018
+3,Needle Pickup,161,6,2018
+4,Lack of Utilities,61,6,2018
+0,Other,26361,7,2018
+1,Needle Pickup,1304,7,2018
+2,Safety Concerns,1455,7,2018
+3,Dead Animals and Pests,1049,7,2018
+4,Lack of Utilities,120,7,2018
+0,Other,25184,8,2018
+1,Safety Concerns,1133,8,2018
+2,Needle Pickup,372,8,2018
+3,Dead Animals and Pests,632,8,2018
+4,Lack of Utilities,44,8,2018
+0,Other,21294,9,2018
+1,Safety Concerns,951,9,2018
+2,Dead Animals and Pests,727,9,2018
+3,Needle Pickup,345,9,2018
+4,Lack of Utilities,63,9,2018
